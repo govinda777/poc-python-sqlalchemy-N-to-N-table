@@ -15,8 +15,11 @@ Aqui está um plano para a POC:
 poetry init
 poetry env use python3.9
 
+
+
 poetry add fastapi uvicorn gunicorn sqlalchemy python-dotenv pymysql
 
+poetry add pymysql;
 
 
 **1. Estrutura de Pastas**

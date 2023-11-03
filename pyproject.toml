@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poc-python-sqlalchemy-n-to-n-table"
+version = "0.1.0"
+description = ""
+authors = ["Lua Govinda Mendes Souza <govinda.souza@mercadolivre.com>"]
+readme = "README.md"
+packages = [{include = "poc_python_sqlalchemy_n_to_n_table"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.23"
+pymysql = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
